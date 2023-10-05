@@ -1,0 +1,3 @@
+[submodule "public/GGM"]
+	path = public/GGM
+	url = git@github.com:GreedyGauntlet/GGM.git

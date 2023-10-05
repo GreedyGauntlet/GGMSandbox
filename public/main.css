@@ -1,0 +1,44 @@
+.button {
+    cursor: pointer; 
+    margin: 0.8em; 
+    padding: 0.8em; 
+    font-family: 'arial black';
+    user-select: none;
+}
+
+#importbtn {
+    background-color: #333333; 
+    color: white; 
+    transition: 0.3s;
+}
+
+#exportbtn {
+    background-color: rgb(252, 252, 252);
+    color: #333333;
+    box-shadow: #888888 1px 1px 3px;
+    transition: 0.3s;
+}
+
+#importbtn:hover {
+    background-color: #525252; 
+    transition: 0.3s;
+    transform: translateY(-2px);
+}
+
+#importbtn:active {
+    background-color: #272727; 
+    transition: 0.3s;
+    transform: translateY(2px);
+}
+
+#exportbtn:hover {
+    background-color: #ffffff; 
+    transition: 0.3s;
+    transform: translateY(-2px);
+}
+
+#exportbtn:active {
+    background-color: #e7e7e7; 
+    transition: 0.3s;
+    transform: translateY(2px);
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="GGM/Lib/ggm.css">
+    <link rel="stylesheet" href="main.css">
+    <title>GGM Sandbox</title>
+</head>
+
+<body> 
+    <input type="file" id="fileInput" style="display: none">
+    <br>
+    <div style="display:flex; justify-content: center; align-items: stretch;">
+        <div style="width:50vw" id="output"></div>
+        <textarea style="position: relative; margin-left: 5vw; width: 40vw; resize: vertical;" id="editor"></textarea>
+    </div>
+    <div style="display:flex; justify-content: center; align-items: center; padding: 2em;">
+        <span id="importbtn" class="button" onclick="document.getElementById('fileInput').click()">IMPORT</span>
+        <span id="exportbtn" class="button">EXPORT</span>
+    </div>
+    <script src="GGM/Lib/ggm.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
